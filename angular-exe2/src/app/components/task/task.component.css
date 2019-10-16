@@ -1,0 +1,10 @@
+#home-section {
+    background: url('/assets/estudiobobo.jpg') no-repeat;
+      min-height: 90vh;
+      background-size: cover;
+      opacity: rgba(0, 0, 0, .7);
+   
+    }
+
+
+    .black-line{width: 450px; background-color: black; height: 3px;}    

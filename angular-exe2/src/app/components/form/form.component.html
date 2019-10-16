@@ -1,0 +1,42 @@
+
+ <br>
+ <br>
+
+ <section id="clearr">
+    <div class="container p-4">
+        <div class="row">
+            <div class= "col-md-6 mt-5">
+                    
+                                                        <form #emailForm="ngForm" (ngSubmit)="sendEmail(emailForm)">
+                                                            <div class="form-group">
+                                                                <input type="text" name="name" class="form-control" placeholder="Nombre y apellido" #name="ngModel" [(ngModel)]="emailService.selectedEmail.name" >
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" name="email" class="form-control" placeholder="Email" #email="ngModel" [(ngModel)]="emailService.selectedEmail.email" >
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <textarea rows="2" name="consulta" class="form-control" placeholder="Consulta" #consulta="ngModel" [(ngModel)]="emailService.selectedEmail.consulta"></textarea>
+                                                            </div>
+                                            
+                                                            <button class="btn btn-primary btn-block">
+                                                                Enviar
+                                                            </button>
+                                                        </form>
+                                                    </div>   
+                                                    
+                            <div class= "col-md-6 mt-5">  
+
+                                    <img src="/assets/mapa.jpg" style="width: 100%">
+                            </div>                   
+                            </div>
+                        </div>
+                </section>
+                
+
+
+
+
+                                        
+                                            
+
+ 

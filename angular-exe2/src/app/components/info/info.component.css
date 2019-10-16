@@ -1,0 +1,7 @@
+#lala {
+    background: url('/assets/ambitocontable.jpg') no-repeat;
+      min-height: 90vh;
+      background-size: cover;
+      opacity: rgba(0, 0, 0, .7);
+   
+    }
